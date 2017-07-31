@@ -747,7 +747,7 @@ PACK(
         int16_t week;       // weeks - GPS Week
         uint8_t numvis;     // Number of visible SVs
         uint8_t numSV;      // # of SVs following
-        SVStatusReap svstatusreap[100]; // NOTE: TODO: Find the max repititions possible for this!! max thus far: (71)
+        SVStatusReap svstatusreap[300]; // NOTE: TODO: Find the max repititions possible for this!! max thus far: (71)
         uint8_t checksum[2];
 });
 
